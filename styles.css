@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.hide {
+    display: none;
+}
 
 body{
     padding: 2rem;
@@ -46,6 +49,7 @@ body{
     top: calc(100% - 5rem);
     min-width: 120px;
     padding: 0.75rem 1rem;
+    font-size: 1.25rem;
     outline: none;
     border: none;
     background-color: #cffafe;
@@ -56,13 +60,13 @@ body{
 }
 
 .btn:hover{
-    background-color: #cffafe;
+    background-color: #57959b;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 
 .btn-yes {
     left: 50%;
-    transform: translateX(calc(-100% - 1rem));
+    transform: translateX(calc(100% - 1rem));
     z-index: 1;
 }
 .btn-no {
