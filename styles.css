@@ -21,6 +21,8 @@ body{
     display: flex;
     width: 100%;
     margin-inline: auto;
+    top: 20%;
+    left: 50%;
     filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.2));
 }
 
