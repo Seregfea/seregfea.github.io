@@ -15,6 +15,7 @@ body{
     background-image: linear-gradient(to right bottom, #cffafe, #22d3ee);
     display: flex;
     flex-direction: column;
+    background-color: #22d3ee;
 }
 
 .header-img {
