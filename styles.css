@@ -15,7 +15,8 @@
 
 .header_img {
     display: flex;
-    width: 50%;
+    max-width: 40%;
+    max-height: 40%;
     margin-inline: auto;
 }
 
