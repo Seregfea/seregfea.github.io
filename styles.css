@@ -5,8 +5,12 @@
 }
 
 body{
-    height: 100%;
+    padding: 2rem;
+    width: 100%;
+    min-height: 100vh;
     background-color: #22d3ee;
+    display: flex;
+    flex-direction: column;
 }
 
 
